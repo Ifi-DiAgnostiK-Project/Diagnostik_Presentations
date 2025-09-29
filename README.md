@@ -6,7 +6,7 @@ date: 2025-09-29
 comment: Beiratssitzung des DiAgnostiK-Projekts am 29.09.2025
 title: Beiratssitzung
 tags: Vortrag, DiAgnostiK, Ifi
-
+icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
 import: https://raw.githubusercontent.com/liaScript/mermaid_template/master/README.md
         https://raw.githubusercontent.com/LiaTemplates/LiveEdit-Embeddings/refs/tags/0.0.1/README.md
 
@@ -83,6 +83,7 @@ sequenceDiagram
     WS->>WS: Nachauswertung durchführen
     WS->>AM: Lernstandskontrolle
     AM->>AM: Feedback analysieren
+
 ```
 
 ### Ausgangspunkt LiaScript
@@ -113,7 +114,7 @@ Welche Kosten müssen Sie für 3 Quadratmeter veranschlagen?
 
 3. __Konkretisierung der allgemeinen/fachpraktischen Inhalte__
 
-4. __Qualität der KI-generierten Inhalte__
+4. __Qualität der Inhalte__
 
 {{1-3}}
 ``` Prompt
@@ -142,6 +143,14 @@ Offenbar sind einfache Aufgaben gut realisierbar. Komplexere Aufgaben, die Konte
 
 > Um die übergreifende Herausforderung der KI-gestützten Generierung von Aufgaben zu bewältigen, wird ein hybrider Ansatz verfolgt, der manuell erstellte Inhalte mit KI-generierten Materialien kombiniert.
 
+| Herausforderung                                                   | Manuelle Erzeugung | KI-gestützte Erzeugung |
+| ----------------------------------------------------------------- | ------------------ | ---------------------- |
+| 1. **Heterogene digitale Vorkenntnisse bei Azubis und Lehrenden** | +++                | +                      |
+| 2. **Technische Randbedingungen während der ÜLU-Kurse**           | ++                 | ++                     |
+| 3. **Konkretisierung der allgemeinen/fachpraktischen Inhalte**    | +++                | +++                    |
+| 4. **Qualitätssicherung**                                         | +++                | +                      |
+
+
 Manuell erzeugte Inhalte
 --------------------------
 
@@ -151,7 +160,7 @@ https://ifi-diagnostik-project.github.io/LiaScript-Courses/
 
 > Gegenwärtig laufen erste Tests zur Einbindung und Evaluation von digitalen Materialien in die ÜLU-Kurse der HWK Dresden.  
 
-Generierte Materialien 
+KI-gestützte Erzeugung
 --------------------------
 
 1. Datenerfassung für die Kontextualisierung der Aufgabenstellung (abgeschlossen)
