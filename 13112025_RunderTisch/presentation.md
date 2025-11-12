@@ -61,14 +61,14 @@ import: https://raw.githubusercontent.com/liaScript/mermaid_template/master/READ
 
 {{0-1}}
 ```mermaid @mermaid
+%%{init: {'sequence': {'actorFontSize': 12, 'noteFontSize': 12, 'messageFontSize': 12, 'diagramMarginX': 10, 'diagramMarginY': 10, 'boxMargin': 2, 'boxTextMargin': 2, 'noteMargin': 2, 'messageGap': 10}}}%%
 sequenceDiagram
     participant AZ as Azubis
     participant AM as Ausbildungsmeister
     participant WS as DiAgnostiK<br/> Webseite/KI-System
     participant DB as DiAgnostiK<br/> Datenbank/Vorlagen
 
-    AM->>AZ: Beobachtung der praktischen Arbeit / <br/> Auswertung von Theorieaufgaben
-    AM->>AM: Identifikation von Defiziten
+    AM->>AZ: Identifikation von Defiziten
 
     AM->>WS: Konkretisierung des Bedarfs  <br/>(Kurs, Lehrjahr, Thema)
     WS->>DB: Abruf von Kursunterlagen, <br/> Lehrbüchern, Vorlagen
@@ -79,45 +79,16 @@ sequenceDiagram
     AZ->>AZ: Aufgaben bearbeiten
     AZ-->>WS: Ergebnisse übermitteln
 
-    WS->>WS: Nachauswertung durchführen
     WS->>AM: Lernstandskontrolle
-    AM->>AM: Feedback analysieren
+    AM->>AZ: Feedback
 ```
 
 {{1-2}}
-```mermaid @mermaid
-sequenceDiagram
-    participant AZ as Azubis
-    participant AM as Ausbildungsmeister
-    participant WS as DiAgnostiK<br/> Webseite/KI-System
-    participant DB as DiAgnostiK<br/> Datenbank/Vorlagen
-
-    AM->>AZ: Beobachtung der praktischen Arbeit / <br/> Auswertung von Theorieaufgaben
-    AM->>AM: Identifikation von Defiziten
-
-    AM->>WS: Konkretisierung des Bedarfs  <br/>(Kurs, Lehrjahr, Thema)
-    %% HERVORGEHOBENER BLOCK BEGINN
-    rect rgb(255, 255, 204)
-        Note right of AM: **Demo**
-        WS->>DB: Abruf von Kursunterlagen, <br/> Lehrbüchern, Vorlagen
-        DB-->>WS: Unterlagen bereitstellen
-    
-        WS->>WS: Material generieren
-        WS->>AZ: Webseite mit Aufgaben bereitstellen
-    end
-    %% HERVORGEHOBENER BLOCK ENDE
-
-    AZ->>AZ: Aufgaben bearbeiten
-    AZ-->>WS: Ergebnisse übermitteln
-
-    WS->>WS: Nachauswertung durchführen
-    WS->>AM: Lernstandskontrolle
-    AM->>AM: Feedback analysieren
-```
+![](../images/Diagnostik_demonstrator.png "Screenshot eines Prototyps zur KI-gestützten Generierung von Aufgaben im Rahmen des DiAgnostiK-Projektes.")
 
 ## Warum LiaScript?
 
-> LiaScript ist eine Beschreibungssprache für interaktive Lerninhalte, die auf Markdown basiert und durch spezielle Erweiterungen ergänzt wird. Der entscheidende Vorteil liegt in der möglichkeit diese Dokumente durch eine KI generieren zu lassen.
+> LiaScript ist eine **Beschreibungssprache** für interaktive Lerninhalte, die auf Markdown basiert und durch spezielle Erweiterungen ergänzt wird. Der entscheidende Vorteil liegt in der möglichkeit diese Dokumente durch eine KI generieren zu lassen.
 
 ```markdown @embed.style(height: 550px; min-width: 100%; border: 1px black solid)
 # KIs mögen Textdateien
@@ -133,15 +104,13 @@ Welche Kosten müssen Sie für 3 Quadratmeter veranschlagen?
 [[ 400 ]] Euro
 ```
 
-## Herausforderungen
+## Technisch / Methodische Herausforderungen
 
 1. __Technische Randbedingungen während der ÜLU-Kurse__
 
    > _Jeder nimmt sich bitte einen Laptop ..._ ❌
 
 2. __Heterogene digitale Vorkenntnisse bei Azubis und Lehrenden__
-
-   ![](https://uelu-digital.de/content/images/2025/03/status_quo-1.png)<!-- width="700" -->
 
    > _Schauen Sie sich das Video an und beantworten Sie das zugehörige Quiz ..._ ❌
 
@@ -151,7 +120,11 @@ Welche Kosten müssen Sie für 3 Quadratmeter veranschlagen?
 
 4. __Qualität der Inhalte__
 
+   > _Aber gern. Ich generiere Dir eine Aufgabe, die die Holzarten im Tischlerhandwerk behandelt ..._ ❌
+
 5. __Einbettung in bestehende IT-Infrastrukturen__
+
+   > _..._ ❌
 
 ## Lösungsstrategie
 
