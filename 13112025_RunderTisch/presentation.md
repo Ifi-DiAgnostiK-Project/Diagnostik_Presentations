@@ -1,6 +1,6 @@
 <!--
 author: Sebastian Zug, Hilke Domsch, Volker Göhler, André Dietrich
-version: 0.0.2
+version: 0.0.3
 language: de
 date: 2025-09-29
 comment: Beiratssitzung des DiAgnostiK-Projekts am 29.09.2025
