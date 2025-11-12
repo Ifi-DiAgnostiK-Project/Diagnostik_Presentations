@@ -4,9 +4,9 @@ version: 0.0.2
 language: de
 date: 2025-09-29
 comment: Beiratssitzung des DiAgnostiK-Projekts am 29.09.2025
-title: Beiratssitzung
+title: Runder Tisch 2025
 tags: Vortrag, DiAgnostiK, Ifi
-icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
+icon: ../images/Projektlogo.png
 import: https://raw.githubusercontent.com/liaScript/mermaid_template/master/README.md
         https://raw.githubusercontent.com/LiaTemplates/LiveEdit-Embeddings/refs/tags/0.0.1/README.md
 
@@ -48,7 +48,7 @@ import: https://raw.githubusercontent.com/liaScript/mermaid_template/master/READ
 > 
 > Volker Göhler
 >
-><h4>Beiratssitzung am 13.11.2025</h4>
+><h4>Runder Tisch Digitale Berufliche Bildung am 13.11.2025</h4>
 
 <!-- class="flex-child" style="min-width: 250px;" -->
 ![partner_map](../images/Intro_Tischler_Roboter.png "ChatGPT-4: _Generiere ein Bild, das die Nutzung von KI für die Generierung von Aufgaben im Berufsbildungskontext darstellt, also zum Beispiel ein Roboter der einen Fragebogen entwirft._")
@@ -88,7 +88,7 @@ sequenceDiagram
 
 ## Warum LiaScript?
 
-> LiaScript ist eine **Beschreibungssprache** für interaktive Lerninhalte, die auf Markdown basiert und durch spezielle Erweiterungen ergänzt wird. Der entscheidende Vorteil liegt in der möglichkeit diese Dokumente durch eine KI generieren zu lassen.
+> LiaScript ist eine **Beschreibungssprache** für interaktive Lerninhalte, die auf Markdown basiert und durch spezielle Erweiterungen ergänzt wird. Der entscheidende Vorteil liegt in der Möglichkeit, diese Dokumente durch eine KI generieren zu lassen.
 
 ```markdown @embed.style(height: 550px; min-width: 100%; border: 1px black solid)
 # KIs mögen Textdateien
@@ -128,7 +128,7 @@ Welche Kosten müssen Sie für 3 Quadratmeter veranschlagen?
 
 ## Lösungsstrategie
 
-> Um die übergreifende Herausforderung der KI-gestützten Generierung von Aufgaben zu bewältigen, wird ein hybrider Ansatz verfolgt, den Einsatz von KI-generierten Materialien mit manuell erzeugten Inhalten vorbereitet.
+> Um die übergreifende Herausforderung der KI-gestützten Generierung von Aufgaben zu bewältigen, wird ein hybrider Ansatz verfolgt, der den Einsatz von KI-generierten Materialien mit manuell erzeugten Inhalten vorbereitet.
 
 Manuell erzeugte Inhalte
 --------------------------
@@ -144,23 +144,11 @@ KI-gestützte Erzeugung
 
 1. Datenerfassung für die Kontextualisierung der Aufgabenstellung (abgeschlossen)
 2. Entwurf eines dialoggeführten Systems zur Generierung der Aufgaben (in Arbeit)
-3. Implementierung der Lernumbung mit generierten Materialien (geplant)
+3. Implementierung der Lernumgebung mit generierten Materialien (geplant)
 
    ```
    🎓 Teaching-Agent aktiviert.
    Ich bleibe **streng in Charakter** und folge den BMAD-Bundle Instruktionen.
-   
-   👉 Folgende Aktionen stehen dir zur Verfügung:
-   
-   1. **create-outline** – Erste Vorlesungs-Outline erstellen (Titel, Zielgruppe, Abstract, Lernziele).
-   2. **create-didactics** – Didaktik & Lehrstil entwickeln (auf Basis der Outline).
-   3. **create-agenda** – Strukturierte Agenda mit Sessions bauen.
-   4. **create-session {number} {type} {title?}** – Skeleton für eine Session anlegen.
-   5. **promote-session {number} {type}** – Skeleton zu detailliertem Material erweitern.
-   6. **validate-lecture** – Konsistenz und Vollständigkeit prüfen.
-   7. **assemble-bundle** – Alles in ein fertiges Vorlesungspaket bündeln.
-   8. **help** – Diese Übersicht anzeigen.
-   9. **exit** – Persona verlassen.
    
    📌 Nächster Schritt gemäß den Instruktionen: **Immer zuerst eine Lecture Outline erstellen.**
    Dafür brauche ich von dir:
