@@ -2,9 +2,9 @@
 author: Sebastian Zug, Hilke Domsch, Volker Göhler, André Dietrich
 version: 0.0.3
 language: de
-date: 2025-09-29
-comment: Beiratssitzung des DiAgnostiK-Projekts am 29.09.2025
-title: Runder Tisch 2025
+date: 2026-01-19
+comment: Beiratssitzung des DiAgnostiK-Projekts am 19.01.2026
+title: Runder Tisch 2026
 tags: Vortrag, DiAgnostiK, Ifi
 icon: ../images/Projektlogo.png
 import: https://raw.githubusercontent.com/liaScript/mermaid_template/master/README.md
@@ -33,7 +33,7 @@ import: https://raw.githubusercontent.com/liaScript/mermaid_template/master/READ
 
 -->
 
-[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Diagnostik_Presentations/refs/heads/main/13112025_RunderTisch/presentation.md#1)
+[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Diagnostik_Presentations/refs/heads/main/19012026_Beiratssitzung/presentation.md#1)
 
 # KI als Werkzeug zur Generierung von Aufgaben in der beruflichen Bildung
 
@@ -48,7 +48,7 @@ import: https://raw.githubusercontent.com/liaScript/mermaid_template/master/READ
 > 
 > Volker Göhler
 >
-><h4>Runder Tisch Digitale Berufliche Bildung am 13.11.2025</h4>
+><h4>Runder Tisch Digitale Berufliche Bildung am 19.01.2026</h4>
 
 <!-- class="flex-child" style="min-width: 250px;" -->
 ![partner_map](../images/Intro_Tischler_Roboter.png "ChatGPT-4: _Generiere ein Bild, das die Nutzung von KI für die Generierung von Aufgaben im Berufsbildungskontext darstellt, also zum Beispiel ein Roboter der einen Fragebogen entwirft._")
@@ -84,7 +84,7 @@ sequenceDiagram
 ```
 
 {{1-2}}
-![](../images/Diagnostik_demonstrator.png "Screenshot eines Prototyps zur KI-gestützten Generierung von Aufgaben im Rahmen des DiAgnostiK-Projektes.")
+!?[](https://www.youtube.com/watch?v=6VE-2vbKAE8 "Prototyp zur KI-gestützten Generierung von Aufgaben im Rahmen des DiAgnostiK-Projektes.")
 
 ## Warum LiaScript?
 
@@ -104,61 +104,10 @@ Welche Kosten müssen Sie für 3 Quadratmeter veranschlagen?
 [[ 400 ]] Euro
 ```
 
-## Technisch / Methodische Herausforderungen
-
-1. __Technische Randbedingungen während der ÜLU-Kurse__
-
-   > _Jeder nimmt sich bitte einen Laptop ..._ ❌
-
-2. __Heterogene digitale Vorkenntnisse bei Azubis und Lehrenden__
-
-   > _Schauen Sie sich das Video an und beantworten Sie das zugehörige Quiz ..._ ❌
-
-3. __Konkretisierung der allgemeinen/fachpraktischen Inhalte__
-
-   > _KI, entnimm Formate prüfungsrelevanter Aufgaben aus Lehrbüchern, Aufgaben zur Prüfung, etc. ..._ ❌
-
-4. __Qualität der Inhalte__
-
-   > _Aber gern. Ich generiere Dir eine Aufgabe, die die Holzarten im Tischlerhandwerk behandelt ..._ ❌
-
-5. __Einbettung in bestehende IT-Infrastrukturen__
-
-   > _..._ ❌
-
 ## Lösungsstrategie
 
 > Um die übergreifende Herausforderung der KI-gestützten Generierung von Aufgaben zu bewältigen, wird ein hybrider Ansatz verfolgt, der den Einsatz von KI-generierten Materialien mit manuell erzeugten Inhalten vorbereitet.
 
-Manuell erzeugte Inhalte
---------------------------
-
-Beispiele für manuell erstellte Inhalte finden sich unter 
-
-https://ifi-diagnostik-project.github.io/LiaScript-Courses/
-
-> Gegenwärtig laufen erste Tests zur Einbindung und Evaluation von digitalen Materialien in die ÜLU-Kurse der HWK Dresden.  
-
-KI-gestützte Erzeugung
---------------------------
-
-1. Datenerfassung für die Kontextualisierung der Aufgabenstellung (abgeschlossen)
-2. Entwurf eines dialoggeführten Systems zur Generierung der Aufgaben (in Arbeit)
-3. Implementierung der Lernumgebung mit generierten Materialien (geplant)
-
-   ```
-   🎓 Teaching-Agent aktiviert.
-   Ich bleibe **streng in Charakter** und folge den BMAD-Bundle Instruktionen.
-   
-   📌 Nächster Schritt gemäß den Instruktionen: **Immer zuerst eine Lecture Outline erstellen.**
-   Dafür brauche ich von dir:
-   
-   * Titel der Vorlesung
-   * Zielgruppe
-   * Abstract (Themen, Inhalte, Nutzen)
-   * 3–5 Lernziele
-   * (Optional) Logo-Prompt
-   
-   👉 Möchtest du die Outline jetzt starten?
-   ```
-
++ Automatische Evaluation der Syntax von generierten Inhalten
++ Didaktische Evaluation der Resultate
++ Verbesserung der Änderungsmöglichkeiten
