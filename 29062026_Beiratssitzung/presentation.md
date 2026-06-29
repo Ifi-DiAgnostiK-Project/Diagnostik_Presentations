@@ -1,6 +1,6 @@
 <!--
 author: Sebastian Zug, Hilke Domsch, Volker Göhler, André Dietrich
-version: 0.0.1
+version: 0.0.2
 language: de
 date: 2026-06-29
 comment: Beiratssitzung des DiAgnostiK-Projekts am 29.06.2026
@@ -46,7 +46,7 @@ import: https://raw.githubusercontent.com/liaScript/mermaid_template/master/READ
 > Prof. Dr. Sebastian Zug, Dr. André Dietrich (TU Bergakademie Freiberg)
 > Florian Riefling, Anke Kaschner, Kerstin Schmid (HWK Dresden)
 >
-> <h4>Beiratssitzung am 29.06.2026</h4>
+> <h4>Beiratssitzung am 29.06.2026, 15:00 - 16:30 Uhr</h4>
 
 <!-- class="flex-child" style="min-width: 250px;" -->
 ![partner_map](../images/Intro_Tischler_Roboter.png "ChatGPT-4: _Generiere ein Bild, das die Nutzung von KI für die Generierung von Aufgaben im Berufsbildungskontext darstellt, also zum Beispiel ein Roboter der einen Fragebogen entwirft._")
@@ -55,13 +55,13 @@ import: https://raw.githubusercontent.com/liaScript/mermaid_template/master/READ
 
 ## Tagesordnung
 
-| #   | Punkt                                          | Wer            |
-| --- | ---------------------------------------------- | -------------- |
-| 0   | **Aktuelle Entwicklungen** (neu)               | Zug / Dietrich |
-| 1   | **Stand KI**                                   | Zug            |
-| 2   | **Stand LMS**                                  | Zug / Dietrich |
-| 3   | **Vorbereitung Evaluierung I der Quizze**      | Zug            |
-| 4   | **Sonstiges**                                  | alle           |
+| #   | Punkt                                     | Wer             |
+| --- | ----------------------------------------- | --------------- |
+| 0   | **Aktuelle Entwicklungen** (neu)          | Zug / Dietrich  |
+| 1   | **Stand KI**                              | Zug             |
+| 2   | **Stand LMS**                             | Zug / Dietrich  |
+| 3   | **Vorbereitung Evaluierung I der Quizze** | Zug  / Riefling |
+| 4   | **Sonstiges**                             | alle            |
 
 ![alt text](image-1.png)
 
